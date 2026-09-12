@@ -1,0 +1,35 @@
+{
+  "name": "@zerortc/core",
+  "version": "0.1.0",
+  "description": "ZeroRTC base Data-Channel engine — disposable signaling, transceiver-first, platform-agnostic",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./src/index.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf dist"
+  },
+  "sideEffects": false,
+  "keywords": [
+    "webrtc",
+    "datachannel",
+    "p2p",
+    "zerortc"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "~5.8.2"
+  }
+}

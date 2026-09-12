@@ -1,0 +1,1 @@
+{"name":"MicroRTC - Zero-Bloat WebRTC \u0026 Neural Fallback","description":"Hyper-optimized vanilla WebRTC library with disposable signaling, in-band DataChannel control, and semantic neural codec fallback for extreme low-bandwidth networks.","requestFramePermissions":["camera","microphone"],"majorCapabilities":["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]}

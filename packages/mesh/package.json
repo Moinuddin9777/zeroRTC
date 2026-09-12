@@ -1,0 +1,32 @@
+{
+  "name": "@zerortc/mesh",
+  "version": "0.1.0",
+  "description": "ZeroRTC off-grid signaling adapters — BLE GATT chunking, LAN WebSocket, QR/gzip",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./src/index.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf dist"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "@zerortc/core": "*"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.2"
+  },
+  "license": "MIT"
+}
