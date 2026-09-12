@@ -1,5 +1,7 @@
 # ZeroRTC
 
+**Elevator pitch.** ZeroRTC is a data-channel-first WebRTC stack that throws away the signaling server the instant the call is up: peers handshake over LAN, Bluetooth, QR, or a shared bus, then all control (mute, ICE, hangup) rides in-band while media stays pure P2P — and when the network dies, video flips to binary AI pose/biometric telemetry under ~2 kbps so the session never goes dark.
+
 Hyper-optimized, modular WebRTC ecosystem — **Data-Channel First**, disposable signaling, and AI telemetry under 2 kbps.
 
 | Package | Role |
